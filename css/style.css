@@ -33,13 +33,10 @@ nav a{
   text-decoration: none; 
 }
 
-nav li:hover{
+nav a:hover, a:focus{
   text-decoration: underline;
 }
 
-nav li:focus{
-  text-decoration: underline;
-}
 /*Your Code Here*/
 /*Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
@@ -154,12 +151,10 @@ header p{
 }
 
 .text-block{
-background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  margin: auto;
-  text-align: center;
   align-self: center;
 }
 
